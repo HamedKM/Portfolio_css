@@ -1,0 +1,56 @@
+@font-face {
+  font-family: FontI;
+  src:url(Roboto-BlackItalic.ttf)
+}
+
+@font-face {
+  font-family: FontB;
+  src:url(Roboto-Bold.ttf)
+}
+
+@font-face {
+  font-family: FontR;
+  src:url(Roboto-Regular.ttf)
+}
+
+nav{
+  background: linear-gradient(45deg, #00ffe9 , #00a6ff );
+  display:flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+nav ul li{
+margin-left: 77px;
+list-style-type: none;
+display: inline-block;
+padding: 10px 20px;
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-family: FontB;
+}
+
+header{
+  font-family: FontR;
+}
+
+main{
+  font-family: FontR;
+}
+
+section{
+  font-family: FontR;
+}
+
+footer{
+  font-family: FontR;
+}
+
+.topbutton{
+  font-family: FontI;
+}
